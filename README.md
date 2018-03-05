@@ -50,8 +50,19 @@ DELETE /v2/models/{model_id}
 GET /v2/models/{model_id}
 
 ### Personality Insights
+#### https://gateway.watsonplatform.net/personality-insights/api
+##### 1
+##### Get profile
+POST /v2/profile
 
 ### Tone Analyzer
+#### https://gateway.watsonplatform.net/tone-analyzer/api/v3
+##### 2
+##### Analyze general tone
+GET /v3/tone
+POST /v3/tone
+##### Analyze customer engagement tone
+POST /v3/tone_chat
 
 ## Speech services
 ### Speech to Text
@@ -65,3 +76,21 @@ GET /v2/models/{model_id}
 
 ## Vision services
 ### Visual Recognition
+#### https://gateway-a.watsonplatform.net/visual-recognition/api
+##### 7
+##### Classify images
+GET /v3/classify
+POST /v3/classify
+##### Detect faces
+GET /v3/detect_faces
+POST /v3/detect_faces
+##### Create a classifier
+POST /v3/classifiers
+##### Retrieve a list of custom classifiers
+GET /v3/classifiers
+##### Retrieve classifier details
+GET /v3/classifiers/{classifier_id}
+##### Update a classifier
+POST /v3/classifiers/{classifier_id}
+##### Delete a classifier
+DELETE /v3/classifiers/{classifier_id}
