@@ -66,8 +66,69 @@ POST /v3/tone_chat
 
 ## Speech services
 ### Speech to Text
+#### HTTP API Endpoint https://stream.watsonplatform.net/speech-to-text/api
+#### WebSocket API Endpoint wss://stream.watsonplatform.net/speech-to-text/api
+##### 44
+##### Get models
+##### Get a model
+#### WebSockets
+##### Recognize audio
+#### Sessionless
+##### Recognize audio
+##### Recognize multipart
+#### Sessions
+##### Create a session
+##### Get status
+##### Observe result
+##### Recognize audio
+##### Recognize multipart
+##### Delete a session
+#### Asynchronous
+##### Register a callback
+##### Unregister a callback
+##### Create a job
+##### Check jobs
+##### Check a job
+##### Delete a job
+#### Custom language models
+#### Custom corpora
+#### Custom words
+#### Custom acoustic models
+#### Custom audio resources
 
 ### Text to Speech
+#### HTTP API Endpoint https://stream.watsonplatform.net/text-to-speech/api
+#### WebSocket API Endpoint wss://stream.watsonplatform.net/text-to-speech/api
+##### 15
+##### Get voices
+GET /v1/voices
+##### Get a voice
+GET /v1/voices/{voice}
+##### Synthesize audio
+GET /v1/synthesize
+POST /v1/synthesize
+##### Get pronunciation
+GET /v1/pronunciation
+##### Create a custom model
+POST /v1/customizations
+##### Update a custom model
+POST /v1/customizations/{customization_id}
+##### List custom models
+GET /v1/customizations
+##### List a custom model
+GET /v1/customizations/{customization_id}
+##### Delete a custom model
+DELETE /v1/customizations/{customization_id}
+##### Add custom words
+POST /v1/customizations/{customization_id}/words
+##### Add a custom word
+PUT /v1/customizations/{customization_id}/words/{word}
+##### List custom words
+GET /v1/customizations/{customization_id}/words
+##### List a custom word
+GET /v1/customizations/{customization_id}/words/{word}
+##### Delete a custom word
+DELETE /v1/customizations/{customization_id}/words/{word}
 
 ## Data Insights services
 ### Discovery
