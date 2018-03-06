@@ -28,6 +28,10 @@ GET /v1/classifiers/{classifier_id}
 GET /v1/classifiers
 
 ### Conversation
+#### https://gateway.watsonplatform.net/conversation/api/v1
+##### 43
+#### Environments
+##### List workspaces
 
 ### Language Translator
 #### https://gateway.watsonplatform.net/language-translator/api
@@ -158,9 +162,12 @@ GET /v1/customizations/{customization_id}/words/{word}
 DELETE /v1/customizations/{customization_id}/words/{word}
 
 ## Data Insights services
-### Discovery
-
 ### Discovery News
+### Discovery
+#### https://gateway.watsonplatform.net/discovery/api/v1
+##### 40
+#### Environments
+##### Create an environment
 
 ## Vision services
 ### Visual Recognition
