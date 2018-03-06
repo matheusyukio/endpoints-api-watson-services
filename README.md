@@ -91,10 +91,37 @@ POST /v3/tone_chat
 ##### Check a job
 ##### Delete a job
 #### Custom language models
+##### Create a custom language model
+##### List custom language models
+##### List a custom language model
+##### Train a custom language model
+##### Reset a custom language model
+##### Upgrade a custom language model
+##### Delete a custom language model
 #### Custom corpora
+##### Add a corpus
+##### List corpora
+##### List a corpus
+##### Delete a corpus
 #### Custom words
+##### Add custom words
+##### Add a custom word
+##### List custom words
+##### List a custom word
+##### Delete a custom word
 #### Custom acoustic models
+##### Create a custom acoustic model
+##### List custom acoustic models
+##### List a custom acoustic model
+##### Train a custom acoustic model
+##### Reset a custom acoustic model
+##### Upgrade a custom acoustic model
+##### Delete a custom acoustic model
 #### Custom audio resources
+##### Add an audio resource
+##### List audio resources
+##### List an audio resource
+##### Delete an audio resource
 
 ### Text to Speech
 #### HTTP API Endpoint https://stream.watsonplatform.net/text-to-speech/api
